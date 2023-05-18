@@ -1,0 +1,11 @@
+Input files and scripts:
+- train.cfg and test.cfg contain the training and test sets,
+- init.mtp is the file with MTP of 16-th level, taken from
+  the untrained_mtps/ for the code repository and edited
+  according to untrained_mtps/readme.txt
+- training-validation.sh: shell script for training 5 MTPs.
+
+Output files:
+- pot1.mtp - pot5.mtp: files with MTPs fitted (parameters optimized),
+- 1.out - 5.out: files with the 'mlp train' command output and
+  training and validation errors for corresponding MTPs. 

@@ -1,0 +1,14 @@
+general:
+ System = Mo
+ ISTART = 1 ; ICHARG=1
+ ENCUT  =    400
+ PREC   = accurate
+ ISMEAR =     1;   SIGMA  =   0.1
+ ISYM   =      0
+ NELM   =     300;   NELMIN=  3
+ EDIFF  = 1E-07
+ ISPIN = 1
+KGAMMA = .TRUE.
+KSPACING =  0.114     #0.238
+  LWAVE = .FALSE.
+ LCHARG = .FALSE.

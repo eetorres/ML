@@ -1,0 +1,7 @@
+The folders ElConst1-ElConst5 contain:
+- the fitted MTPs
+- additional files needed to calculate the elastic constants using the
+  LAMMPS code with MTPs. The resulting constants are written in the
+  file ElasticConstants.txt (using the python scripts read-ElasticConstants-create-file.py).
+
+The shell script elastic-constants.sh calculates the elastic constants C11, C12, and C44. 

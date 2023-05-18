@@ -1,0 +1,9 @@
+The two folders contain the input files for ab initio (VASP) calculations.
+A user should copy the POTCAR and write its own scripts for ab initio
+calculations of the number of POSCARs. The output files train.cfg and test.cfg
+contain training and test sets already computed with VASP
+in our internal .cfg format.
+
+The script calc-mindist.sh, unsurprisingly, calculates minimal distance between
+atoms in the training and test sets. Also writes a per-configuration mindist
+to the corresponding .cfg files.

@@ -1,0 +1,24 @@
+Scripts:
+- lattice-parameter.sh: lattice parameter calculation
+- energy-volume-curve.sh: energy-volume curve calculation
+- read-cfgs-write-energy-volume.py: python script to extract the energy-volume
+  pair from the CFG files
+
+Input files:
+- deformed.cfg: deformations of the unit cell for plotting
+  the energy-volume curve
+- init.cfg: undeformed configuration (input for structure relaxation)
+
+Output files:
+- deformed_efs_vasp.cfg: computed deformed configurations with VASP
+- E_V_vasp.txt: processed volume-energy pairs for VASP
+- example-1-E-V-curve.pdf: plot for the figure of Example 1, the uncertainty
+  was evaluated on the ensemble of the five MTPs
+
+Folders: 1/ - 5/: folders with potentials, relax.ini needed for relaxation,
+and output files. In each folder:
+- pot1.mtp - pot5.mtp: files with the fitted MTPs
+- relax.ini: MLIP settings file for relaxation
+- relaxed.cfg: the relaxed configuration (with the equilibrium lattice parameter)
+- deformed_efs.cfg: files with energy for the defomed configurations
+- E_V.txt: processed volume-energy pairs

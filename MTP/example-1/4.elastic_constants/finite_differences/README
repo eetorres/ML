@@ -1,0 +1,15 @@
+The five folders ElConst1-ElConst5 contain:
+- the corresponding fitted MTPs
+- the files 1.cfg-4.cfg including extended/compressed configurations along
+  the directions xx and xy needed for calculation of the elastic constants
+  C11, C12, and C44 with finite differences.
+
+The shell script calc-efs-deformed-cfg.sh calculates energies, forces, and
+stresses of the extended/compressed configurations and writes them in the files
+1_efs.cfg-4_efs.cfg. Note that one could alternatively put all four
+configurations in one file and process them at once.
+
+The folder ElConstDFT has the files 1_efs.cfg-4_efs.cfg containing
+extended/compressed configurations with energies, forces, and stresses,
+calculated with DFT. Once we have all the files 1_efs.cfg-4_efs.cfg
+we manually calculate the elastic constants with finite differences.

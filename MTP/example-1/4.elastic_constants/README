@@ -1,0 +1,8 @@
+The two folders contain files for calculation of elastic constants with
+finite differences and with LAMMPS.
+
+The three files C11.csv, C12.csv, and C44.csv list the results of such
+calculations, namely the elastic constants:
+- calculated with DFT (using finite differences),
+- MLIP (using finite diffences), and
+- LAMMPS (it was run with MTPs fitted).

@@ -1,0 +1,12 @@
+1) Compile the mlp binary and copy it in this folder. Either MPI or serial
+   version should work.
+
+2) To calculate the elastic constants with LAMMPS, you should compile the
+   LAMMPS+MLIP binary, rename it to "lmp", and copy it in this folder.
+   The LAMMPS-MLIP interface is distributed at
+   https://gitlab.com/ashapeev/interface-lammps-mlip-v2.
+
+3) To recalculate the training set with VASP, copy the corresponding POTCAR
+   to the folders "1.training_test_set/vasp_test_set" and
+   "1.training_test_set/vasp_training_set".
+   Write your own scripts for ab initio calculations of a multiple of POSCARs.
